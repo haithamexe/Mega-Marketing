@@ -1,0 +1,37 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 30px;
+}
+.layout-container {
+  flex-grow: 1;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.17);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgb(169, 169, 169);
+  /* padding: 20px; */
+}
+
+.logo-temp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1200px;
+  z-index: 10;
+}
+
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* min-height: 80vh; */
+  padding: 20px;
+}

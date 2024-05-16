@@ -1,0 +1,42 @@
+.header {
+  /* background-color: #f8f9fa; */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 60px;
+}
+
+.header img {
+  width: 90px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #5b8ae9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding does not affect width */
+  }
+}
